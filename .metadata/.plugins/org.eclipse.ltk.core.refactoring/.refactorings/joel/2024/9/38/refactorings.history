@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;condicionals.Condicionals.java&apos; to &apos;Ejercicio1.java&apos;&#x0A;- Original project: &apos;joel&apos;&#x0A;- Original element: &apos;condicionals.Condicionals.java&apos;&#x0A;- Renamed element: &apos;condicionals.Ejercicio1.java&apos;" description="Rename compilation unit &apos;Condicionals.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;condicionals{Condicionals.java" name="Ejercicio1.java" references="false" stamp="1726826209667" version="1.0"/>
+</session>

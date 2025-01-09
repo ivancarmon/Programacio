@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Cosas/src/cosas/Manifest&apos; to &apos;Manifest.mf&apos;" description="Rename resource &apos;Manifest&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/cosas/Manifest" name="Manifest.mf" stamp="1727264248511" updateReferences="true"/>
+</session>

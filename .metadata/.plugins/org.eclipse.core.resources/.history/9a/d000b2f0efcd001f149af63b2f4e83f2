@@ -1,0 +1,13 @@
+package matrius;
+
+public class Sudoku {
+	
+	public static void main(String[] args) {
+		int[][] sudoku = new int[9][9];
+		Ejercicio1.ImprimirMatriz(sudoku);
+		
+		
+	}
+	
+	
+}

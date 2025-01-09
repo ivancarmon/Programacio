@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;funcions.Imprimir89.lineasCentrales(...)&apos; to &apos;lineasCentrales1&apos;&#x0D;&#x0A;- Original project: &apos;EjerciciosClase&apos;&#x0D;&#x0A;- Original element: &apos;funcions.Imprimir89.lineasCentrales(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;funcions.Imprimir89.lineasCentrales1(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;lineasCentrales&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;funcions{Imprimir89.java[Imprimir89~lineasCentrales~I~C" name="lineasCentrales1" references="true" stamp="1732814035870" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+package matrius;
+
+public class Rellenarcuadrados {
+	
+	public static void main(String[] args) {
+		
+	}
+	public static int[][] RellenarCuadros(){
+		int[][] m = new int[40][40]; 
+		for (int i = 0; i < m.length/2; i++) {
+			for (int j = 0; j < m.length/2; j++) {
+				m[i][j] = 1; 
+			}
+		}
+		return m;
+		
+	}
+	public static void ImprimirMatriz(int[][] m) {
+		for (int i = 0; i < m.length; i++) {
+			for (int j = 0; j < m[i].length; j++) {
+				System.out.print(m[i][j] + " |");
+			}
+			System.out.println();
+		}
+	}
+	
+}

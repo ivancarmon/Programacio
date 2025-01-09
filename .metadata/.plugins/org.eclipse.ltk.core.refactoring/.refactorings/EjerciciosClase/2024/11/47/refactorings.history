@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;funcions.esprimo&apos; to &apos;Esprimo&apos;&#x0A;- Original project: &apos;EjerciciosClase&apos;&#x0A;- Original element: &apos;funcions.esprimo&apos;&#x0A;- Renamed element: &apos;funcions.Esprimo&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;esprimo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;funcions{esprimo.java[esprimo" matchStrategy="1" name="Esprimo" qualified="false" references="true" similarDeclarations="false" stamp="1732271500594" textual="false" version="1.0"/>
+</session>

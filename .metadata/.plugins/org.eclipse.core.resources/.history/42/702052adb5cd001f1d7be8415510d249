@@ -1,0 +1,21 @@
+package matrius;
+
+public class cuadradomagico {
+	
+	public static void main(String[] args) {
+		
+		int[][] m = {{1,2,3},{4,5,6},{7,8,9}};		
+		if(esCuadradoMagico(m)) {
+			System.out.println("Si es cuadrado magico");
+		}
+		else {
+			System.out.println("No es cuadrado magico");
+		}
+	}
+	public static boolean esCuadradoMagico(int [][] m) {
+		return false;
+	}
+	
+	
+	
+}

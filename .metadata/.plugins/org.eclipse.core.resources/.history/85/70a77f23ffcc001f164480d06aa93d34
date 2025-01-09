@@ -1,0 +1,76 @@
+package blackjack;
+
+import java.util.Scanner;
+
+public class Blackjack {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		
+		System.out.println("Bienvenido al blackjack el que mas se acerque a 21 sin pasarse gana.");
+		System.out.println("¿Que le gustaria hacer?");
+		int opcion;
+		double bank = 0;
+		do {
+			System.out.printf("Su banca es de %.2f€%n", bank);
+			System.out.println("1- Depositar");
+			System.out.println("2- Retirar dinero");
+			System.out.println("3- Jugar al blackjack");
+			System.out.println("4- salir");
+			opcion = sc.nextInt();
+			switch (opcion) {
+			
+			case 1:
+				bank += depositar();
+				break;
+			case 2:
+				bank -= retirar(bank);
+				break;
+			//case 3:juego();break;
+			case 4:System.exit(0);break;
+		
+			}
+		} while (opcion!=4);
+
+		
+		
+
+	
+	}
+	public static double depositar() {
+		double deposito;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("¿Cuanto quieres depositar? (minimo 1 maximo 1000)");
+		deposito = sc.nextDouble();
+		
+		while (deposito < 1 || deposito > 1000) {
+		
+			System.out.println("Cantidad no valida");
+			System.out.println("Vuelva a introducir la cantidad:");
+			deposito = sc.nextDouble();
+		
+		}
+		return deposito;
+	}
+	public static double retirar(double bank) {
+		double retiro;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("¿Cuanto quieres retirar?");
+		retiro = sc.nextDouble();
+		
+		while (bank < retiro) {
+			System.out.println("No puede retirar mas dinero que el que tiene");
+			System.out.println("¿Cuanto quieres retirar?");
+			retiro = sc.nextDouble();
+		}
+		bank -= retiro;
+		
+		return bank;
+		
+	}
+	public static double juego(double apuesta) {
+		
+		return apuesta;
+	}
+}

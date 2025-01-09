@@ -1,0 +1,26 @@
+package matrius;
+
+public class Sudoku {
+
+	public static void main(String[] args) {
+		int[][] sudoku = new int[9][9];
+		ImprimirSudoku(sudoku);
+
+
+	}
+	public static void ImprimirSudoku(int[][] m) {
+
+		for (int i = 0; i < m.length; i++) {
+
+			for (int j = 0; j < m[i].length; j++) {
+				if(m[i][j] !=0) {
+					System.out.print(m[i][j] + " ");
+				}
+			}
+
+			System.out.println();
+		}
+	}
+
+
+}

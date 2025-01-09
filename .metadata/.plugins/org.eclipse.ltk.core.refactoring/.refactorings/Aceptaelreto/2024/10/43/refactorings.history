@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;sum&apos; in &apos;Clarasyoscuras.main(...)&apos; to &apos;total&apos;&#x0A;- Original project: &apos;Aceptaelreto&apos;&#x0A;- Original element: &apos;Clarasyoscuras.main(String[]).sum&apos;&#x0A;- Renamed element: &apos;sum&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;sum&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Clarasyoscuras.java[Clarasyoscuras~main~\[QString;@sum!217!224!221!223!I!0!false" name="total" references="true" stamp="1729683125699" version="1.0"/>
+</session>
