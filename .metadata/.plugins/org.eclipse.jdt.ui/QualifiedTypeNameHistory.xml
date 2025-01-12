@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="holaMundo.holaMundo"/>
     <fullyQualifiedTypeName name="javax.lang.model.util.ElementScanner6"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.classfile.attribute.CharacterRangeTableAttribute"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
@@ -19,5 +18,7 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="matrius.Rellenarcuadrados"/>
     <fullyQualifiedTypeName name="matrius.Ejercicio1"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ForkJoinPool.ManagedBlocker"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

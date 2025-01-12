@@ -101,7 +101,7 @@ public class Blackjack1 {
 		playercards += pedirCarta(playercards);
 		playercards += pedirCarta(playercards);
 		System.out.printf("Cartas del jugador: %d %n",playercards);
-		if(playercards == 21) {
+		if(comprobarBlackJack(playercards)) {
 			System.out.println("Has obtenido blackjack ganas directamente");
 			apuesta *= 1.5;
 			return apuesta;
@@ -118,9 +118,8 @@ public class Blackjack1 {
 				playercards += pedirCarta(playercards);
 				System.out.println("Cartas del jugador: " + playercards);
 				if (playercards > 21) {
-					System.out.println("Te has pasado de 21, ¡has perdido!");
-					apuesta -= apuesta *2;
-					return apuesta;
+					System.out.print("¡Te has pasado!");
+						hasPerdido(apuesta);
 					
 				}
 				break;
@@ -132,9 +131,8 @@ public class Blackjack1 {
 				System.out.println();
 				if (playercards > 21) {
 					
-					System.out.println("Te has pasado de 21, ¡has perdido!");
-					apuesta -= apuesta *2;
-					return apuesta;
+					System.out.print("¡Te has pasado!");
+					hasPerdido(apuesta);
 					
 				}
 			}
@@ -179,6 +177,13 @@ public class Blackjack1 {
 
 		
 	}
+	public static boolean comprobarBlackJack(int playercards) {
+		boolean esBlackJack;
+		esBlackJack = (playercards == 21);
+
+		
+		return esBlackJack;
+	}
 	public static int pedirCarta(int totalcartas) {
 		Random rand = new Random();
 		int carta = rand.nextInt(13) + 1;
@@ -200,6 +205,11 @@ public class Blackjack1 {
 		
 		
 		return carta;
+	}
+	public static double hasPerdido(double apuesta) {
+		System.out.println("¡has perdido!");
+		apuesta -= apuesta *2;
+		return apuesta;
 	}
 	
 }
