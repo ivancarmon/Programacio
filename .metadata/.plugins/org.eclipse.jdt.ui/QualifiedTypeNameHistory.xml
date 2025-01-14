@@ -20,5 +20,6 @@
     <fullyQualifiedTypeName name="matrius.Ejercicio1"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ForkJoinPool.ManagedBlocker"/>
+    <fullyQualifiedTypeName name="matrius.Simetries"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

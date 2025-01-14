@@ -15,11 +15,13 @@ public class Simetries {
 			y = sc.nextInt();
 			m = new  char[x][y];
 			for (int j = 0; j < x; j++) {
+				
 				for (int j2 = 0; j2 < y; j2++) {
 
 					m[j][j2] = sc.next().charAt(0); 
 
 				}
+				
 			}
 			if(esHorizontal(m,x,y) && esVertical(m,x,y)) System.out.println("DOBLE");
 			else if(esHorizontal(m,x,y)) System.out.println("HORITZONTAL");
@@ -61,15 +63,6 @@ public class Simetries {
 
 		return esVertical;
 	}
-	public static void imprimirMatriz(char[][] m) {
 
-		for (int i = 0; i < m.length; i++) {
-			for (int j = 0; j < m[i].length; j++) {
-				System.out.print(m[i][j] + " ");
-			}
-			System.out.println();
-		}
-
-	}
 
 }

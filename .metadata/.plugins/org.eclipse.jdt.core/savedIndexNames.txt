@@ -1,14 +1,15 @@
-INDEX VERSION 1.134+D:\dam\eclipse\proyectes\.metadata\.plugins\org.eclipse.jdt.core
-3623956441.index
-3475373403.index
-1438974090.index
-1885338684.index
-1598117981.index
+INDEX VERSION 1.134+/media/alumne/TOSHIBA EXT/dam/eclipse/proyectes/.metadata/.plugins/org.eclipse.jdt.core
+3459081763.index
+3850477524.index
+1791329824.index
+1309653319.index
+564730834.index
+1496017861.index
+1136377202.index
+1038553153.index
+3631448037.index
+578664060.index
 1865797976.index
-562934326.index
-2949368083.index
-2654697412.index
-2246740262.index
-1148002099.index
-4080409378.index
-1020732745.index
+646308851.index
+3826756599.index
+649306748.index
